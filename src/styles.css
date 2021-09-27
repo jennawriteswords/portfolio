@@ -1,3 +1,30 @@
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px !important;
+    color: var(--primary-color);
+  }
+  h2 {
+    font-size: 24px !important;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .center-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .disappear {
+    display: none;
+  }
+  .priority {
+    width: 100%;
+  }
+}
+
 :root {
   --primary-color: #113f67;
   --secondary-color: #e7eaf6;
@@ -7,6 +34,7 @@
   --serif-font: "Playfair Display", serif;
   --sans-serif-font: "Open Sans", sans-serif;
 }
+
 h1,
 h2,
 h3 {
@@ -31,6 +59,11 @@ h3 {
 p,
 a {
   font-family: var(--sans-serif-font);
+}
+
+img {
+  border: 30px solid var(--tertiary-color);
+  border-radius: 40px;
 }
 
 .navigation-links {
@@ -72,4 +105,8 @@ a {
 
 .icons {
   text-align: center;
+}
+
+.mag {
+  font-style: italic;
 }
