@@ -12,6 +12,7 @@ h2,
 h3 {
   font-family: var(--serif-font);
   color: var(--primary-color);
+  text-align: center;
 }
 
 h1 {
@@ -59,5 +60,16 @@ a {
 
 .hero {
   background-color: var(--secondary-color);
+}
+
+.fa-envelope {
+  color: var(--primary-color);
+}
+
+.fa-linkedin {
+  color: var(--primary-color);
+}
+
+.icons {
   text-align: center;
 }
