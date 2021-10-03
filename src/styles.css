@@ -84,22 +84,22 @@ img {
   font-style: italic;
 }
 
-.about {
+.container-format {
   padding: 30px;
 }
 
-.about-content h1 {
+.content h1 {
   font-size: 40px;
   text-align: left;
 }
 
-.about-content h2 {
+.content h2 {
   font-size: 16px;
   font-weight: bold;
   text-align: left;
 }
 
-.about-content a {
+.content a {
   margin-bottom: 30px;
 }
 
@@ -138,12 +138,6 @@ img {
 
   .about-image {
     margin-top: 30px;
-  }
-
-  .about-left {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
   }
 }
 
