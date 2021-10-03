@@ -1,30 +1,3 @@
-@media (max-width: 576px) {
-  h1 {
-    font-size: 56px !important;
-    color: var(--primary-color);
-  }
-  h2 {
-    font-size: 24px !important;
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-
-  .center-button {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .disappear {
-    display: none;
-  }
-  .priority {
-    width: 100%;
-  }
-}
-
 :root {
   --primary-color: #113f67;
   --secondary-color: #e7eaf6;
@@ -109,4 +82,78 @@ img {
 
 .mag {
   font-style: italic;
+}
+
+.about {
+  padding: 30px;
+}
+
+.about-content h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.about-content a {
+  margin-bottom: 30px;
+}
+
+.about-image {
+  border: none;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .center-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+  .priority {
+    width: 100%;
+  }
+
+  .about-image {
+    margin-top: 30px;
+  }
+
+  .about-left {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .about-image {
+    margin-top: 30px;
+  }
+  .center-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
